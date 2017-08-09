@@ -19,9 +19,12 @@ public class HospitalController {
 	@Autowired
 	PatientManager patientManager;
 	
+	@Autowired
+	PatientService patientService;
+	
 	@RequestMapping(value="/getAllPatients",method = RequestMethod.GET)
 	public List<PatientDTO> getAllPatients(){
-		return patientManager.getAllPatients();
+		return patientService.getAllPatients();
 		
 	}
 	

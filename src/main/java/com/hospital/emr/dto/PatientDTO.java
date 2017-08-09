@@ -20,15 +20,15 @@ public class PatientDTO {
         this.gender=gender;
     }
  
-    public long getId() {
+    public int getId() {
         return id;
     }
  
-    public String getfirstName() {
+    public String getFirstName() {
         return firstName;
     }
     
-    public String getlastName() {
+    public String getLastName() {
         return lastName;
     }
     
@@ -52,6 +52,11 @@ public class PatientDTO {
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+    
+    public void setDOB(Date DOB) {
+        this.DOB = DOB;
+    }
+    
  
     public void setGender(String gender) {
         this.gender = gender;
@@ -67,5 +72,6 @@ public class PatientDTO {
                 ", gender='" + gender + '\'' +
                 '}';
     }
+
 
 }
