@@ -9,4 +9,5 @@ GET Method - http://localhost:9400/rest/patient/getAllPatients
 - [x] **API** access
 - [ ] Angular.js front end with Bootstrap and Thymeleaf
 - [ ] Search & Auto Complete
+- [ ] Upload/Download files using Amazon S3 bucket
 - [ ] Stripe API for handelling payments
